@@ -6,8 +6,41 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/MainMenu.unity
+    guid: ae567bf66e6e7be4b9888b3b800da6f1
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: 523316269a968a94982bea8223ed6b71
+  - enabled: 1
+    path: Assets/Scenes/SunSurface.unity
+    guid: acd7692f24ac4d5478580510f4c15f7d
+  - enabled: 1
+    path: Assets/Scenes/MercurySurface.unity
+    guid: d7ecdd221d5034c429f41255e13a97f4
+  - enabled: 1
+    path: Assets/Scenes/VenusSurface.unity
+    guid: 038b768b1e2c0e3449d474d16437abf0
+  - enabled: 1
+    path: Assets/Scenes/EarthSurface.unity
+    guid: 2ebe6d3857badbe4e8738b7e1fc5ff82
+  - enabled: 1
+    path: Assets/Scenes/MoonSurface.unity
+    guid: 0a9e8fda7e4a8e04c8b2b00873f1ee50
+  - enabled: 1
+    path: Assets/Scenes/MarsSurface.unity
+    guid: 2e278c9a6dd79aa44a9d4f41f1eadb04
+  - enabled: 1
+    path: Assets/Scenes/JupiterSurface.unity
+    guid: 3ac367dd4f1ae3843b6016feea6143c3
+  - enabled: 1
+    path: Assets/Scenes/SaturnSurface.unity
+    guid: f3c5339b53460964e9bc55235ac923bd
+  - enabled: 1
+    path: Assets/Scenes/UranusSurface.unity
+    guid: 78d6ea45bb3f2d041a2492496690f30e
+  - enabled: 1
+    path: Assets/Scenes/NeptuneSurface.unity
+    guid: d898cf693e1e3714586aa29a04efb1da
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0
