@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 5754149674096328103}
   - component: {fileID: 7969618323046427216}
   - component: {fileID: 8582327858067109115}
+  - component: {fileID: 6681357324893948882}
   m_Layer: 0
   m_Name: Canvas
   m_TagString: Untagged
@@ -117,6 +118,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6745866d4b0c2304b993c3d9fafd8e6f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!225 &6681357324893948882
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2493417748164664940}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 0
+  m_BlocksRaycasts: 0
+  m_IgnoreParentGroups: 0
 --- !u!1 &2686561445023314887
 GameObject:
   m_ObjectHideFlags: 0
@@ -176,7 +189,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.2245282, b: 0.2245282, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -220,7 +233,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 3, y: 3, z: 3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
   m_Father: {fileID: 763074608181718490}
@@ -337,7 +350,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.2245282, b: 0.2245282, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -412,7 +425,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 0.2245282, b: 0.2245282, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -500,7 +513,7 @@ MonoBehaviour:
   _objectToEnable: {fileID: 2493417748164664940}
   _popUpAudio: {fileID: 0}
   _hoverAudio: {fileID: 0}
-  _objectToSelect: {fileID: 8686338982446553517}
+  _objectToScale: {fileID: 0}
   _selectedScale: {x: 0.1, y: 0.1, z: 0.1}
 --- !u!114 &4455022646392777944
 MonoBehaviour:
