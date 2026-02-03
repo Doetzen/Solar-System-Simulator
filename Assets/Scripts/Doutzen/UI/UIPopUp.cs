@@ -1,5 +1,4 @@
 using System.Collections;
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class UIPopUp : MonoBehaviour
@@ -16,7 +15,6 @@ public class UIPopUp : MonoBehaviour
 
     private void OnMouseEnter()
     {
-        // Enable UI gameObject
         // in enter play popup audio
         // start hoveraudio
         StopAllCoroutines();
@@ -32,7 +30,6 @@ public class UIPopUp : MonoBehaviour
 
     private void OnMouseExit()
     {
-        //disable UI gameobject
         //stop hoveraudio
         StopAllCoroutines();
         StartCoroutine(FadeCVGroupOff(0, 2));
