@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e968715a1a9e15240a647de8cd655481
+guid: ab27dbfca5ed50142a2f3eae0ed287c3
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,12 +95,34 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Button 5_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 265
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 9, y: 7, z: 6, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c6e18c3bfb68df46a3309769dd95294
+      internalID: 414868310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: e930b872ab695d04c8aa47c6bf6be8c9
     internalID: 0
     vertices: []
     indices: 
@@ -109,7 +131,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Button 5_0: 414868310
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
