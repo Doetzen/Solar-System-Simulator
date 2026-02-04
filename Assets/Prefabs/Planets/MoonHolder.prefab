@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8815074861526463987, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: _planetInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 070d51631a5ac844a8bb2202584421d8, type: 2}
     - target: {fileID: 763074608181718490, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_LocalScale.x
       value: 0.5
@@ -73,6 +77,10 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 6198907093981340100}
     - target: {fileID: 4455022646392777944, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: _planetInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 070d51631a5ac844a8bb2202584421d8, type: 2}
+    - target: {fileID: 4752397843880236402, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: _planetInfo
       value: 
       objectReference: {fileID: 11400000, guid: 070d51631a5ac844a8bb2202584421d8, type: 2}

@@ -13,8 +13,8 @@ MonoBehaviour:
   m_Name: Uranus
   m_EditorClassIdentifier: 
   planetName: Uranus
-  rotationSpeed: 0
+  rotationSpeed: 3
   moveSpeed: 0
-  planetOffset: {x: 0, y: 0, z: 0}
+  planetOffset: {x: 0, y: 60, z: 0}
   planetRotationAxis: {x: 1, y: 0, z: 0}
   sceneToLoad: UranusSurface
