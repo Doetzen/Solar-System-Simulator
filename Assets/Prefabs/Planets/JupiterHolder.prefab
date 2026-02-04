@@ -108,15 +108,15 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 763074608181718490, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_LocalRotation.x
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 763074608181718490, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_LocalRotation.y
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 763074608181718490, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_LocalRotation.z
-      value: 0
+      value: -0
       objectReference: {fileID: 0}
     - target: {fileID: 763074608181718490, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -138,6 +138,10 @@ PrefabInstance:
       propertyPath: _objectToEnable
       value: 
       objectReference: {fileID: 1374004540367708893}
+    - target: {fileID: 4455022646392777944, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: _planetInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 7f3772ba1b13676408a6e3bed5e10fd5, type: 2}
     - target: {fileID: 8645355639923180983, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_Name
       value: JupiterHolder

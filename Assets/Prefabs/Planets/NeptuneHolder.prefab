@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: _objectToEnable
       value: 
       objectReference: {fileID: 6216223875336366802}
+    - target: {fileID: 4455022646392777944, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: _planetInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 36f49b35a00df954e9183c5473e4d0cd, type: 2}
     - target: {fileID: 8645355639923180983, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_Name
       value: NeptuneHolder

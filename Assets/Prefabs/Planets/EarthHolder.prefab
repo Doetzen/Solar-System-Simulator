@@ -68,6 +68,10 @@ PrefabInstance:
       propertyPath: _objectToEnable
       value: 
       objectReference: {fileID: 4916823627116233657}
+    - target: {fileID: 4455022646392777944, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: _planetInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 07bff2fdcbb3d9542a4ce743a5bbab79, type: 2}
     - target: {fileID: 8645355639923180983, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_Name
       value: EarthHolder

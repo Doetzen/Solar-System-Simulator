@@ -56,6 +56,10 @@ PrefabInstance:
       propertyPath: _objectToEnable
       value: 
       objectReference: {fileID: 6629473322111447973}
+    - target: {fileID: 4455022646392777944, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: _planetInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: c39996a013fe8a444a4ea74be145365e, type: 2}
     - target: {fileID: 8645355639923180983, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_Name
       value: VenusHolder
