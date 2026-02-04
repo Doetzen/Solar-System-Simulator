@@ -94,6 +94,10 @@ PrefabInstance:
       propertyPath: _planetInfo
       value: 
       objectReference: {fileID: 11400000, guid: 724939a783293f440ae8c20b3f6951c4, type: 2}
+    - target: {fileID: 710955265703037373, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: m_Radius
+      value: 2.41
+      objectReference: {fileID: 0}
     - target: {fileID: 763074608181718490, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
