@@ -249,7 +249,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -5295,7 +5295,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -1821856677, guid: bb6f90f5b19e6164ea7ecb7000f5cfd9, type: 3}
+  m_Sprite: {fileID: 743563050, guid: 5a09299643d9dc649bc8fdb1730e57ec, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10323,7 +10323,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 414868310, guid: ab27dbfca5ed50142a2f3eae0ed287c3, type: 3}
+  m_Sprite: {fileID: 215580110, guid: e968715a1a9e15240a647de8cd655481, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10471,7 +10471,7 @@ ParticleSystem:
   ringBufferLoopRange: {x: 0, y: 1}
   emitterVelocityMode: 1
   looping: 1
-  prewarm: 0
+  prewarm: 1
   playOnAwake: 1
   useUnscaledTime: 0
   autoRandomSeed: 1
@@ -20544,63 +20544,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1172919940}
   m_CullTransparentMesh: 1
---- !u!1001 &1641583278
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    serializedVersion: 3
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 2679194718420004882, guid: 3beab5ce5e163344dadbbe8ecc81620d, type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -32.62481
-      objectReference: {fileID: 0}
-    - target: {fileID: 2679194718420004882, guid: 3beab5ce5e163344dadbbe8ecc81620d, type: 3}
-      propertyPath: m_LocalPosition.y
-      value: -0.13339
-      objectReference: {fileID: 0}
-    - target: {fileID: 2679194718420004882, guid: 3beab5ce5e163344dadbbe8ecc81620d, type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2679194718420004882, guid: 3beab5ce5e163344dadbbe8ecc81620d, type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 0.7071067
-      objectReference: {fileID: 0}
-    - target: {fileID: 2679194718420004882, guid: 3beab5ce5e163344dadbbe8ecc81620d, type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0.7071068
-      objectReference: {fileID: 0}
-    - target: {fileID: 2679194718420004882, guid: 3beab5ce5e163344dadbbe8ecc81620d, type: 3}
-      propertyPath: m_LocalRotation.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2679194718420004882, guid: 3beab5ce5e163344dadbbe8ecc81620d, type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2679194718420004882, guid: 3beab5ce5e163344dadbbe8ecc81620d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2679194718420004882, guid: 3beab5ce5e163344dadbbe8ecc81620d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 2679194718420004882, guid: 3beab5ce5e163344dadbbe8ecc81620d, type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 3343282577123748520, guid: 3beab5ce5e163344dadbbe8ecc81620d, type: 3}
-      propertyPath: m_Name
-      value: SkyboxSphere
-      objectReference: {fileID: 0}
-    m_RemovedComponents: []
-    m_RemovedGameObjects: []
-    m_AddedGameObjects: []
-    m_AddedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 3beab5ce5e163344dadbbe8ecc81620d, type: 3}
 --- !u!1 &1681512480
 GameObject:
   m_ObjectHideFlags: 0
@@ -20943,7 +20886,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: -116208533, guid: 9227429d4d1211b43a0a2a0c0eda908d, type: 3}
+  m_Sprite: {fileID: -1584470198, guid: 424374c70831fee4a8d244a1c7da66c8, type: 3}
   m_Type: 1
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -21173,7 +21116,7 @@ Light:
   m_BounceIntensity: 1
   m_ColorTemperature: 6570
   m_UseColorTemperature: 0
-  m_BoundingSphereOverride: {x: 1.0285576e-38, y: 0, z: 0, w: 0}
+  m_BoundingSphereOverride: {x: 3.5258e-41, y: 2.524355e-29, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ForceVisible: 0
@@ -21228,5 +21171,4 @@ SceneRoots:
   - {fileID: 1850418564}
   - {fileID: 1848297617}
   - {fileID: 1681512483}
-  - {fileID: 1641583278}
   - {fileID: 427211421}
