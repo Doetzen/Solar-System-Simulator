@@ -131,6 +131,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2496474672455585679, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: _objectToScale
+      value: 
+      objectReference: {fileID: 1062119743155218546}
+    - target: {fileID: 2496474672455585679, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: _objectToEnable
       value: 
       objectReference: {fileID: 1374004540367708893}
