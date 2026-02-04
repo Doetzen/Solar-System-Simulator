@@ -126,7 +126,7 @@ CanvasGroup:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2493417748164664940}
   m_Enabled: 1
-  m_Alpha: 1
+  m_Alpha: 0
   m_Interactable: 0
   m_BlocksRaycasts: 0
   m_IgnoreParentGroups: 0
@@ -453,6 +453,7 @@ GameObject:
   - component: {fileID: 710955265703037373}
   - component: {fileID: 2496474672455585679}
   - component: {fileID: 4455022646392777944}
+  - component: {fileID: 4752397843880236402}
   m_Layer: 0
   m_Name: PlanetHolderBase
   m_TagString: Untagged
@@ -510,7 +511,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1e73d2076950c354ab47ba9baccc0de4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _objectToEnable: {fileID: 2493417748164664940}
+  _objectToEnable: {fileID: 6681357324893948882}
   _popUpAudio: {fileID: 0}
   _hoverAudio: {fileID: 0}
   _objectToScale: {fileID: 0}
@@ -528,4 +529,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _clickAudio: {fileID: 0}
-  _sceneToSwitchTo: 
+  _planetInfo: {fileID: 0}
+--- !u!114 &4752397843880236402
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8645355639923180983}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dd4072cc7222fd4596ce72f89e271a0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _planetInfo: {fileID: 0}
+  _pitvotPoint: {fileID: 0}
+  _multiplyAmmount: 0
