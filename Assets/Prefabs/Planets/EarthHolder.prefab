@@ -52,18 +52,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 826499310532001706, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
-      propertyPath: m_Color.b
-      value: 0.06205042
-      objectReference: {fileID: 0}
-    - target: {fileID: 826499310532001706, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
-      propertyPath: m_Color.g
-      value: 0.06205042
-      objectReference: {fileID: 0}
-    - target: {fileID: 826499310532001706, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
-      propertyPath: m_Color.r
-      value: 0.93962264
-      objectReference: {fileID: 0}
     - target: {fileID: 2496474672455585679, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: _objectToScale
       value: 
@@ -80,6 +68,10 @@ PrefabInstance:
       propertyPath: _planetInfo
       value: 
       objectReference: {fileID: 11400000, guid: 07bff2fdcbb3d9542a4ce743a5bbab79, type: 2}
+    - target: {fileID: 7284847688633235857, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: m_AdditionalShaderChannelsFlag
+      value: 25
+      objectReference: {fileID: 0}
     - target: {fileID: 8645355639923180983, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_Name
       value: EarthHolder
