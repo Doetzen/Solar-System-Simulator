@@ -8,9 +8,11 @@ public class MovePlanet : MonoBehaviour
 
     private void Update()
     {
+        transform.Rotate(_planetInfo.planetRotationAxis, _planetInfo.rotationSpeed * Time.deltaTime);
+
         if (_pitvotPoint != null)
         {
-            transform.RotateAround(_pitvotPoint.transform.position, _planetInfo.planetOffset, _planetInfo.moveSpeed * Time.deltaTime);
+            transform.RotateAround(_pitvotPoint.transform.position, Vector3.up, _planetInfo.rotateAngle * Time.deltaTime);
         }
     }
 }

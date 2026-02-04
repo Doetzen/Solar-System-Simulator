@@ -454,7 +454,6 @@ GameObject:
   - component: {fileID: 2496474672455585679}
   - component: {fileID: 4455022646392777944}
   - component: {fileID: 4752397843880236402}
-  - component: {fileID: -8815074861526463987}
   m_Layer: 0
   m_Name: PlanetHolderBase
   m_TagString: Untagged
@@ -545,18 +544,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _planetInfo: {fileID: 0}
   _pitvotPoint: {fileID: 0}
-  _multiplyAmmount: 0
---- !u!114 &-8815074861526463987
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8645355639923180983}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 28579a08ba9a651469f1e408eb3d56ba, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _planetInfo: {fileID: 0}
   _multiplyAmmount: 0

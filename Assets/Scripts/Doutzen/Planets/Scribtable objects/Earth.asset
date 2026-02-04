@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Earth
   m_EditorClassIdentifier: 
   planetName: Earth
-  rotationSpeed: 0
-  moveSpeed: 2
-  planetOffset: {x: 0, y: 31, z: 0}
+  rotationSpeed: 5
+  rotateAngle: 10
   planetRotationAxis: {x: 0, y: -1, z: 0}
   sceneToLoad: EarthSurface

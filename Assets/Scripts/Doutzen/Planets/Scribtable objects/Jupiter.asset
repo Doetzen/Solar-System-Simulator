@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Jupiter
   m_EditorClassIdentifier: 
   planetName: Jupiter
-  rotationSpeed: 3
-  moveSpeed: 4
-  planetOffset: {x: 0, y: 44, z: 0}
+  rotationSpeed: 10
+  rotateAngle: 6
   planetRotationAxis: {x: 0, y: -1, z: 0}
   sceneToLoad: JupiterSurface

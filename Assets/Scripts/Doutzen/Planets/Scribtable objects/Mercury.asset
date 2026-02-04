@@ -13,8 +13,7 @@ MonoBehaviour:
   m_Name: Mercury
   m_EditorClassIdentifier: 
   planetName: Mercury
-  rotationSpeed: 0
-  moveSpeed: 0
-  planetOffset: {x: 0, y: 20, z: 0}
+  rotationSpeed: 0.1
+  rotateAngle: 14
   planetRotationAxis: {x: 0, y: -1, z: 0}
   sceneToLoad: MercurySurface
