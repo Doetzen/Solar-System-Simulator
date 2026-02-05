@@ -24044,7 +24044,10 @@ MonoBehaviour:
   masterSlider: {fileID: 1089224644}
   musicSlider: {fileID: 1857457059}
   sfxSlider: {fileID: 1665421533}
-  resolutionDropdown: {fileID: 0}
+  resolutionDropdown: {fileID: 83621089}
+  selectedResolution: 0
+  fullScreenToggle: {fileID: 178818456}
+  isFullScreen: 0
 --- !u!1 &1848297613
 GameObject:
   m_ObjectHideFlags: 0
