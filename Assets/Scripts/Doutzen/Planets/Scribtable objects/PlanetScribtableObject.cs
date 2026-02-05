@@ -10,4 +10,7 @@ public class PlanetScribtableObject : ScriptableObject
     public Vector3 planetRotationAxis;
 
     public string sceneToLoad;
+
+    public int steps;
+    public float radius;
 }
