@@ -10,8 +10,17 @@ public class SwitchSceneToWormHole : MonoBehaviour
     {
 
         //placeholder, will switch to wormhole scene
-        SceneManager.LoadScene(_planetInfo.sceneToLoad);
+        if (_planetInfo != null)
+        {
+            SceneManager.LoadScene(_planetInfo.sceneToLoad);
+        }
         //store the selected planet scene in playerprefs and get playerpref in wormhole scene to load
         PlayerPrefs.SetString("sceneToLoad", _planetInfo.sceneToLoad);
+    }
+
+
+    public void SwitchSceneWithButton()
+    {
+        SceneManager.LoadScene(1);
     }
 }
