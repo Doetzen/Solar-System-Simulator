@@ -31,9 +31,8 @@ public class MovePlanet : MonoBehaviour
 
         for (int i = 0; i < steps; i++)
         {
-            //Calculate where i is between 0 and 1 for the circle
+            //Calculate where i is between 0 and <1 for the circle (almost 1)
             float progress = (float)i / steps;
-            Debug.Log(progress);
 
             //radian is the full length of the circle, PI * 2 is the same
             float currentRadian = progress * 2 * Mathf.PI;
