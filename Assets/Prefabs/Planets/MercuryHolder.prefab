@@ -94,6 +94,10 @@ PrefabInstance:
       propertyPath: _planetInfo
       value: 
       objectReference: {fileID: 11400000, guid: 724939a783293f440ae8c20b3f6951c4, type: 2}
+    - target: {fileID: 710955265703037373, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: m_Radius
+      value: 2.18
+      objectReference: {fileID: 0}
     - target: {fileID: 763074608181718490, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -142,6 +146,18 @@ PrefabInstance:
       propertyPath: _objectToEnable
       value: 
       objectReference: {fileID: 1642512579864466831}
+    - target: {fileID: 2496474672455585679, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: _selectedScale.x
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496474672455585679, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: _selectedScale.y
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 2496474672455585679, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: _selectedScale.z
+      value: 0.2
+      objectReference: {fileID: 0}
     - target: {fileID: 4455022646392777944, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: _planetInfo
       value: 

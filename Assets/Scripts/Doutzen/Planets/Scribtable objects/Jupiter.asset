@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planetName: Jupiter
   rotationSpeed: 10
-  rotateAngle: 6
+  duration: 110
   planetRotationAxis: {x: 0, y: -1, z: 0}
   sceneToLoad: JupiterSurface
+  steps: 100
+  radius: 88.4

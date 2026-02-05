@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planetName: Neptune
   rotationSpeed: 3.2
-  rotateAngle: 2.5
+  duration: 165
   planetRotationAxis: {x: 0, y: -1, z: 0}
   sceneToLoad: NeptuneSurface
+  steps: 300
+  radius: 161.41
