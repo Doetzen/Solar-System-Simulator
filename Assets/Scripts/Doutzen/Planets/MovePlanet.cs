@@ -4,26 +4,23 @@ using UnityEngine.Splines;
 public class MovePlanet : MonoBehaviour
 {
     [SerializeField] private PlanetScribtableObject _planetInfo;
-    [SerializeField] private GameObject _pitvotPoint;
     [SerializeField] private float _multiplyAmmount;
 
     [SerializeField] private LineRenderer _orbitRenderer;
-
+    private SplineAnimate _planetSpline;
 
     private void Start()
     {
-        DrawLine(_planetInfo.steps, _planetInfo.radius);
+        _planetSpline = GetComponent<SplineAnimate>();
+
+        _planetSpline.Duration = _planetInfo.duration;
     }
     private void Update()
     {
         //Rotates the planet based on given rotation
         transform.Rotate(_planetInfo.planetRotationAxis, _planetInfo.rotationSpeed * Time.deltaTime);
 
-        //rotates around sun or earht, null ref check for the sun because she doesn't rotate around anything
-        /*if (_pitvotPoint != null)
-        {
-            transform.RotateAround(_pitvotPoint.transform.position, Vector3.up, _planetInfo.rotateAngle * Time.deltaTime);
-        }*/
+        DrawLine(_planetInfo.steps, _planetInfo.radius);
     }
 
     //Using the line renderer to draw the orbit

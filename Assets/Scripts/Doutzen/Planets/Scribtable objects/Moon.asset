@@ -14,6 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planetName: Moon
   rotationSpeed: 1
-  rotateAngle: 300
+  duration: 20
   planetRotationAxis: {x: 0, y: -1, z: 0}
   sceneToLoad: MoonSurface
+  steps: 0
+  radius: 0

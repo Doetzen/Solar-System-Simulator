@@ -6,7 +6,7 @@ public class PlanetScribtableObject : ScriptableObject
     public string planetName;
     public float rotationSpeed;
 
-    public float rotateAngle;
+    public float duration;
     public Vector3 planetRotationAxis;
 
     public string sceneToLoad;
