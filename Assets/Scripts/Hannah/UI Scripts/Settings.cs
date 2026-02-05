@@ -5,6 +5,7 @@ using UnityEngine.Audio;
 using UnityEngine.Rendering.Universal;
 using UnityEngine.Rendering;
 using UnityEngine.UI;
+using TMPro;
 
 public class Settings : MonoBehaviour
 {
@@ -16,15 +17,15 @@ public class Settings : MonoBehaviour
 
 
     [Header("Resolutions")]
-    public TMPro.TMP_Dropdown resolutionDropdown;
-    Resolution[] resolutions;
+    public TMP_Dropdown resolutionDropdown;
+    Resolution[] allResolutions;
+    public int selectedResolution;
     private List<Resolution> filteredResolution;
-    private float currentRefreshRate;
-    private int currentResolutionIndex = 0;
+    private List<Resolution> selectedResolutionList = new List<Resolution>();
+
+    public bool isFullScreen;
 
 
-
-    [System.Obsolete]
     public void Start()
     {
         if (PlayerPrefs.HasKey("MasterVolume"))
@@ -53,46 +54,34 @@ public class Settings : MonoBehaviour
         {
             PlayerPrefs.SetFloat("SFXVolume", sfxSlider.value);
         }
-        
 
-       /* resolutions = Screen.resolutions;
-        filteredResolution = new List<Resolution>();
+        allResolutions = Screen.resolutions;
 
-        resolutionDropdown.ClearOptions();
-        currentRefreshRate = Screen.currentResolution.refreshRate;
-
-        for (int i = 0; i < resolutions.Length; i++)
+        List<string> resolutionStringList = new List<string>();
+        string newRes;
+        foreach(Resolution res in allResolutions)
         {
-            if (resolutions[i].refreshRate == currentRefreshRate)
+            newRes = res.width.ToString() + "x" + res.height.ToString();
+            
+            if(!resolutionStringList.Contains(newRes))
             {
-                filteredResolution.Add(resolutions[i]);
+                resolutionStringList.Add(newRes);
+                selectedResolutionList.Add(res);
             }
+
+            resolutionStringList.Add(res.ToString());
         }
 
-        List<string> options = new List<string>();
-        for (int i = 0; i < filteredResolution.Count; i++)
-        {
-            string resolutionOption = filteredResolution[i].width + "X" + filteredResolution[i].height + " ";
-            options.Add(resolutionOption);
+        resolutionDropdown.AddOptions(resolutionStringList);
 
-            if (filteredResolution[i].width == Screen.width && filteredResolution[i].height == Screen.height)
-            {
-                currentResolutionIndex = i;
-            }
-        }
-
-        resolutionDropdown.AddOptions(options);
-        resolutionDropdown.value = currentResolutionIndex;
-        resolutionDropdown.RefreshShownValue();*/
 
     }
 
-
-
-    public void SetResolution(int resolutionIndex)
+    public void ChangeRes()
     {
-        Resolution resolution = filteredResolution[resolutionIndex];
-        Screen.SetResolution(resolution.width, resolution.height, Screen.fullScreen);
+        selectedResolution = resolutionDropdown.value;
+
+        Screen.SetResolution(selectedResolutionList[selectedResolution].width, selectedResolutionList[selectedResolution].height, isFullScreen); 
     }
 
     public void SetMaster(float sliderValue)
@@ -114,9 +103,6 @@ public class Settings : MonoBehaviour
         audioMixer.SetFloat("SFXVol", Mathf.Log10(sliderValue) * 20);
         PlayerPrefs.SetFloat("SFXVolume", sliderValue);
     }
-
-
-
 
     public void SetFullScreen(bool isFullScreen)
     {
