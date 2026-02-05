@@ -583,7 +583,7 @@ LineRenderer:
       m_Curve:
       - serializedVersion: 3
         time: 0
-        value: 1
+        value: 0.55121994
         inSlope: 0
         outSlope: 0
         tangentMode: 0
@@ -1952,6 +1952,17 @@ PrefabInstance:
       addedObject: {fileID: 170015807091238012}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c629035bbb2c6f240a5423415962a099, type: 3}
+--- !u!114 &1195873507470037177 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4747790449693431214, guid: c629035bbb2c6f240a5423415962a099, type: 3}
+  m_PrefabInstance: {fileID: 5871307276063950103}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4469129825436502219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 29a074d529cf945029ef7cf40540c9df, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &4469129825436502219 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8034029458564992476, guid: c629035bbb2c6f240a5423415962a099, type: 3}
@@ -2322,6 +2333,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3204243233255348594, guid: c9385bbda2469d241a2824eaec4fae0b, type: 3}
+      propertyPath: _extraSpline
+      value: 
+      objectReference: {fileID: 1195873507470037177}
     - target: {fileID: 5426251056696426340, guid: c9385bbda2469d241a2824eaec4fae0b, type: 3}
       propertyPath: _pitvotPoint
       value: 

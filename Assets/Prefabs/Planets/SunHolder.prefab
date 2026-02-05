@@ -88,7 +88,8 @@ PrefabInstance:
       propertyPath: m_Name
       value: SunHolder
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 2794976152803373924, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
     m_RemovedGameObjects:
     - {fileID: 5238231826918677369, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
     m_AddedGameObjects:
