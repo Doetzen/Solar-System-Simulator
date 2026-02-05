@@ -14,13 +14,12 @@ public class MovePlanet : MonoBehaviour
         _planetSpline = GetComponent<SplineAnimate>();
 
         _planetSpline.Duration = _planetInfo.duration;
+        DrawLine(_planetInfo.steps, _planetInfo.radius);
     }
     private void Update()
     {
         //Rotates the planet based on given rotation
         transform.Rotate(_planetInfo.planetRotationAxis, _planetInfo.rotationSpeed * Time.deltaTime);
-
-        DrawLine(_planetInfo.steps, _planetInfo.radius);
     }
 
     //Using the line renderer to draw the orbit
@@ -34,6 +33,7 @@ public class MovePlanet : MonoBehaviour
         {
             //Calculate where i is between 0 and 1 for the circle
             float progress = (float)i / steps;
+            Debug.Log(progress);
 
             //radian is the full length of the circle, PI * 2 is the same
             float currentRadian = progress * 2 * Mathf.PI;
