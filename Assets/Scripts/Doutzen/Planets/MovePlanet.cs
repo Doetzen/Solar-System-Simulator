@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.Splines;
 
 public class MovePlanet : MonoBehaviour
 {
@@ -8,20 +9,21 @@ public class MovePlanet : MonoBehaviour
 
     [SerializeField] private LineRenderer _orbitRenderer;
 
+
     private void Start()
     {
+        DrawLine(_planetInfo.steps, _planetInfo.radius);
     }
     private void Update()
     {
-        DrawLine(_planetInfo.steps, _planetInfo.radius);
         //Rotates the planet based on given rotation
         transform.Rotate(_planetInfo.planetRotationAxis, _planetInfo.rotationSpeed * Time.deltaTime);
 
         //rotates around sun or earht, null ref check for the sun because she doesn't rotate around anything
-        if (_pitvotPoint != null)
+        /*if (_pitvotPoint != null)
         {
             transform.RotateAround(_pitvotPoint.transform.position, Vector3.up, _planetInfo.rotateAngle * Time.deltaTime);
-        }
+        }*/
     }
 
     //Using the line renderer to draw the orbit
