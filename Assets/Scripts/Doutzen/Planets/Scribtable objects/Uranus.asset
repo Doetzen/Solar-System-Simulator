@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planetName: Uranus
   rotationSpeed: 3
-  duration: 150
   planetRotationAxis: {x: 1, y: 0, z: 0}
+  duration: 150
+  steps: 100
+  radiusClose: 145
+  radiusFar: 2954.5
+  nearViewScale: 6
+  farViewScale: 4
   sceneToLoad: UranusSurface
-  steps: 200
-  radius: 142.68

@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planetName: Saturn
   rotationSpeed: 10
-  duration: 135
   planetRotationAxis: {x: 0, y: -1, z: 0}
+  duration: 135
+  steps: 100
+  radiusClose: 120
+  radiusFar: 1488
+  nearViewScale: 11
+  farViewScale: 9.4
   sceneToLoad: SaturnSurface
-  steps: 150
-  radius: 116.65

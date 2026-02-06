@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planetName: Earth
   rotationSpeed: 5
-  duration: 80
   planetRotationAxis: {x: 0, y: -1, z: 0}
-  sceneToLoad: EarthSurface
+  duration: 80
   steps: 100
-  radius: 54.2
+  radiusClose: 55
+  radiusFar: 151.5
+  nearViewScale: 3.5
+  farViewScale: 1
+  sceneToLoad: EarthSurface

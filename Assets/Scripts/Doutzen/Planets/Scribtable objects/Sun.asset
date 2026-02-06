@@ -14,8 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planetName: Sun
   rotationSpeed: 0.3
-  moveSpeed: 0
-  timeForLoop: 0
-  rotateAngle: 0
   planetRotationAxis: {x: 0, y: -1, z: 0}
+  duration: 0
+  steps: 0
+  radiusClose: 0
+  radiusFar: 0
+  nearViewScale: 20
+  farViewScale: 30
   sceneToLoad: SunSurface

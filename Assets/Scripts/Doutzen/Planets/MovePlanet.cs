@@ -7,14 +7,17 @@ public class MovePlanet : MonoBehaviour
     [SerializeField] private float _multiplyAmmount;
 
     [SerializeField] private LineRenderer _orbitRenderer;
+
+    [SerializeField] private SplineContainer _splineNear;
+    [SerializeField] private SplineContainer _splineFar;
     private SplineAnimate _planetSpline;
 
     private void Start()
     {
         _planetSpline = GetComponent<SplineAnimate>();
-
         _planetSpline.Duration = _planetInfo.duration;
-        DrawLine(_planetInfo.steps, _planetInfo.radius);
+        //DrawLine(_planetInfo.steps, _planetInfo.radiusClose);
+        Switch(true);
     }
     private void Update()
     {
@@ -22,11 +25,38 @@ public class MovePlanet : MonoBehaviour
         transform.Rotate(_planetInfo.planetRotationAxis, _planetInfo.rotationSpeed * Time.deltaTime);
     }
 
+    public void Switch(bool near)
+    {
+        if (near)
+        {
+            if(_planetSpline != null)
+            {
+                _planetSpline.Container = _splineNear;
+            }
+            transform.localScale = new Vector3(_planetInfo.nearViewScale, _planetInfo.nearViewScale, _planetInfo.nearViewScale);
+            DrawLine(_planetInfo.steps, _planetInfo.radiusClose);
+        }
+        else
+        {
+            if(_planetSpline != null)
+            {
+                _planetSpline.Container = _splineFar;
+            }
+            transform.localScale = new Vector3(_planetInfo.farViewScale, _planetInfo.farViewScale, _planetInfo.farViewScale);
+            DrawLine(_planetInfo.steps, _planetInfo.radiusFar);
+        }
+    }
+
+
     //Using the line renderer to draw the orbit
     //Steps == the ammount of points between lined
     //radius == size of the orbit ring
     public void DrawLine(int steps, float radius)
     {
+        //reset positionCount for new line in far away and close view
+        _orbitRenderer.positionCount = 0;
+
+
         _orbitRenderer.positionCount = steps;
 
         for (int i = 0; i < steps; i++)
