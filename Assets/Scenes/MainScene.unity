@@ -1259,6 +1259,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: PlanetPrefab
       objectReference: {fileID: 0}
+    - target: {fileID: 5537943303758194201, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_Materials.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537943303758194201, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: 'm_Materials.Array.data[1]'
+      value: 
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4053,6 +4061,7 @@ MonoBehaviour:
   _hoverAudio: {fileID: 0}
   _objectToScale: {fileID: 4584410626870950333}
   _selectedScale: {x: 0.2, y: 0.2, z: 0.2}
+  _hoverShaderMesh: {fileID: 0}
 --- !u!222 &2294837342658088881
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4879,6 +4888,7 @@ MonoBehaviour:
   _hoverAudio: {fileID: 0}
   _objectToScale: {fileID: 8256628384508745297}
   _selectedScale: {x: 0.2, y: 0.2, z: 0.2}
+  _hoverShaderMesh: {fileID: 0}
 --- !u!1 &3001667696640316374
 GameObject:
   m_ObjectHideFlags: 0
@@ -5493,6 +5503,7 @@ MonoBehaviour:
   _hoverAudio: {fileID: 0}
   _objectToScale: {fileID: 7908366922392820932}
   _selectedScale: {x: 0.2, y: 0.2, z: 0.2}
+  _hoverShaderMesh: {fileID: 0}
 --- !u!1 &3363996159305265107
 GameObject:
   m_ObjectHideFlags: 0
@@ -6318,6 +6329,7 @@ MonoBehaviour:
   _hoverAudio: {fileID: 0}
   _objectToScale: {fileID: 6299228791394903896}
   _selectedScale: {x: 0.8, y: 0.8, z: 0.8}
+  _hoverShaderMesh: {fileID: 0}
 --- !u!1 &3811689628924639305
 GameObject:
   m_ObjectHideFlags: 0
@@ -6747,6 +6759,7 @@ MonoBehaviour:
   _hoverAudio: {fileID: 0}
   _objectToScale: {fileID: 3526400404814671007}
   _selectedScale: {x: 0.4, y: 0.4, z: 0.4}
+  _hoverShaderMesh: {fileID: 0}
 --- !u!222 &4156123840096438898
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -7988,6 +8001,7 @@ MonoBehaviour:
   _hoverAudio: {fileID: 0}
   _objectToScale: {fileID: 4240337513041897075}
   _selectedScale: {x: 0.2, y: 0.2, z: 0.2}
+  _hoverShaderMesh: {fileID: 0}
 --- !u!1 &5313638525655358941
 GameObject:
   m_ObjectHideFlags: 0
@@ -9077,6 +9091,7 @@ MonoBehaviour:
   _hoverAudio: {fileID: 0}
   _objectToScale: {fileID: 2399344433947792386}
   _selectedScale: {x: 0.4, y: 0.4, z: 0.4}
+  _hoverShaderMesh: {fileID: 0}
 --- !u!1 &6064221204370821265
 GameObject:
   m_ObjectHideFlags: 0
@@ -9706,6 +9721,7 @@ MonoBehaviour:
   _hoverAudio: {fileID: 0}
   _objectToScale: {fileID: 5094498931284987102}
   _selectedScale: {x: 1, y: 1, z: 1}
+  _hoverShaderMesh: {fileID: 0}
 --- !u!4 &6434466916457984270
 Transform:
   m_ObjectHideFlags: 0
@@ -11084,6 +11100,7 @@ MonoBehaviour:
   _hoverAudio: {fileID: 0}
   _objectToScale: {fileID: 3546861033622766233}
   _selectedScale: {x: 0.8, y: 0.8, z: 0.8}
+  _hoverShaderMesh: {fileID: 0}
 --- !u!1 &7578179424618925514
 GameObject:
   m_ObjectHideFlags: 0
@@ -11771,6 +11788,7 @@ MonoBehaviour:
   _hoverAudio: {fileID: 0}
   _objectToScale: {fileID: 2608901423132288864}
   _selectedScale: {x: 0.2, y: 0.2, z: 0.2}
+  _hoverShaderMesh: {fileID: 0}
 --- !u!224 &8219323628118087854
 RectTransform:
   m_ObjectHideFlags: 0

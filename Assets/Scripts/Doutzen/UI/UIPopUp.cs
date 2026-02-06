@@ -13,7 +13,7 @@ public class UIPopUp : MonoBehaviour
 
     [SerializeField] private Vector3 _selectedScale;
     //variable for hover shader
-
+    [SerializeField] private GameObject _hoverShaderMesh;
 
     private void OnMouseEnter()
     {
@@ -28,8 +28,6 @@ public class UIPopUp : MonoBehaviour
     //like scale, show hover shader and show UI
     public void OnHover()
     {
-        // in enter play popup audio
-        // start hoveraudio
         StopAllCoroutines();
         StartCoroutine(FadeCVGroupOn(1, 2));
 
@@ -38,7 +36,12 @@ public class UIPopUp : MonoBehaviour
             _objectToScale.localScale += _selectedScale;
         }
 
-        //set hover shader value to on
+        if(_hoverShaderMesh != null)
+        {
+            _hoverShaderMesh.SetActive(true);
+        }
+        // in enter play popup audio
+        // start hoveraudio
     }
 
     //stop the hovershader, ui and back to normal scale
@@ -51,9 +54,12 @@ public class UIPopUp : MonoBehaviour
         {
             _objectToScale.localScale -= _selectedScale;
         }
-        //stop hoveraudio
 
-        // set hover shader value to off
+        if (_hoverShaderMesh != null)
+        {
+            _hoverShaderMesh.SetActive(false);
+        }
+        //stop hoveraudio
     }
 
     //fade UI in when hovering
