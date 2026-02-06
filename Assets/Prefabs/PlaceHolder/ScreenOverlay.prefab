@@ -34,10 +34,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 4289107046703686913}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 254.08252, y: 229}
-  m_SizeDelta: {x: 250, y: 250}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -809.5, y: 391.4}
+  m_SizeDelta: {x: 138.7327, y: 142.6667}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5826781845351572540
 CanvasRenderer:
@@ -274,7 +274,7 @@ GameObject:
   - component: {fileID: 275621628989709926}
   - component: {fileID: 6631616040034406602}
   m_Layer: 0
-  m_Name: panel
+  m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
