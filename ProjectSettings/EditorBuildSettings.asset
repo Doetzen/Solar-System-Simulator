@@ -30,7 +30,7 @@ EditorBuildSettings:
     path: Assets/Scenes/MarsSurface.unity
     guid: 2e278c9a6dd79aa44a9d4f41f1eadb04
   - enabled: 1
-    path: Assets/Scenes/JupiterSurface.unity
+    path: Assets/Scenes/NeptuneSurface.unity
     guid: 3ac367dd4f1ae3843b6016feea6143c3
   - enabled: 1
     path: Assets/Scenes/SaturnSurface.unity
@@ -39,7 +39,7 @@ EditorBuildSettings:
     path: Assets/Scenes/UranusSurface.unity
     guid: 78d6ea45bb3f2d041a2492496690f30e
   - enabled: 1
-    path: Assets/Scenes/NeptuneSurface.unity
+    path: Assets/Scenes/JupiterSurface.unity
     guid: d898cf693e1e3714586aa29a04efb1da
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
