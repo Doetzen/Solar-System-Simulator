@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planetName: Mercury
   rotationSpeed: 0.1
-  duration: 50
   planetRotationAxis: {x: 0, y: -1, z: 0}
-  sceneToLoad: MercurySurface
+  duration: 50
   steps: 100
   radiusClose: 30
   radiusFar: 63.82
+  nearViewScale: 2
+  farViewScale: 0.38
+  sceneToLoad: MercurySurface

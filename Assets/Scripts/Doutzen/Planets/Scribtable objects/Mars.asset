@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planetName: Mars
   rotationSpeed: 2
-  duration: 95
   planetRotationAxis: {x: 0, y: -1, z: 0}
-  sceneToLoad: MarsSurface
+  duration: 95
   steps: 100
   radiusClose: 75
   radiusFar: 248.8
+  nearViewScale: 1.7
+  farViewScale: 0.53
+  sceneToLoad: MarsSurface

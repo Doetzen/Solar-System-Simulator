@@ -14,9 +14,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   planetName: Venus
   rotationSpeed: 0.02
-  duration: 65
   planetRotationAxis: {x: 0, y: 1, z: 0}
-  sceneToLoad: VenusSurface
+  duration: 65
   steps: 100
   radiusClose: 42.5
   radiusFar: 107.65
+  nearViewScale: 3.3
+  farViewScale: 0.95
+  sceneToLoad: VenusSurface

@@ -7,19 +7,40 @@ public class MovePlanet : MonoBehaviour
     [SerializeField] private float _multiplyAmmount;
 
     [SerializeField] private LineRenderer _orbitRenderer;
+
+    [SerializeField] private SplineContainer _splineNear;
+    [SerializeField] private SplineContainer _splineFar;
     private SplineAnimate _planetSpline;
 
     private void Start()
     {
         _planetSpline = GetComponent<SplineAnimate>();
         _planetSpline.Duration = _planetInfo.duration;
-        DrawLine(_planetInfo.steps, _planetInfo.radiusClose);
+        //DrawLine(_planetInfo.steps, _planetInfo.radiusClose);
+        Switch(true);
     }
     private void Update()
     {
         //Rotates the planet based on given rotation
         transform.Rotate(_planetInfo.planetRotationAxis, _planetInfo.rotationSpeed * Time.deltaTime);
     }
+
+    public void Switch(bool near)
+    {
+        if (near)
+        {
+            _planetSpline.Container = _splineNear;
+            transform.localScale = new Vector3(_planetInfo.nearViewScale, _planetInfo.nearViewScale, _planetInfo.nearViewScale);
+            DrawLine(_planetInfo.steps, _planetInfo.radiusClose);
+        }
+        else
+        {
+            _planetSpline.Container = _splineFar;
+            transform.localScale = new Vector3(_planetInfo.farViewScale, _planetInfo.farViewScale, _planetInfo.farViewScale);
+            DrawLine(_planetInfo.steps, _planetInfo.radiusFar);
+        }
+    }
+
 
     //Using the line renderer to draw the orbit
     //Steps == the ammount of points between lined
