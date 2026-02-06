@@ -17,5 +17,5 @@ MonoBehaviour:
   duration: 20
   planetRotationAxis: {x: 0, y: -1, z: 0}
   sceneToLoad: MoonSurface
-  steps: 75
+  steps: 100
   radius: 8.55

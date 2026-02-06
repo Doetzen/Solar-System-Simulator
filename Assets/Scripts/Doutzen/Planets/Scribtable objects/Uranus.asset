@@ -17,5 +17,5 @@ MonoBehaviour:
   duration: 150
   planetRotationAxis: {x: 1, y: 0, z: 0}
   sceneToLoad: UranusSurface
-  steps: 200
-  radius: 142.68
+  steps: 100
+  radius: 145

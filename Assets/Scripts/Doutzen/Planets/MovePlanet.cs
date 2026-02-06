@@ -12,8 +12,8 @@ public class MovePlanet : MonoBehaviour
     private void Start()
     {
         _planetSpline = GetComponent<SplineAnimate>();
-
         _planetSpline.Duration = _planetInfo.duration;
+
         DrawLine(_planetInfo.steps, _planetInfo.radius);
     }
     private void Update()

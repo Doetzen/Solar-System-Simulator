@@ -18,4 +18,4 @@ MonoBehaviour:
   planetRotationAxis: {x: 0, y: -1, z: 0}
   sceneToLoad: EarthSurface
   steps: 100
-  radius: 54.2
+  radius: 55

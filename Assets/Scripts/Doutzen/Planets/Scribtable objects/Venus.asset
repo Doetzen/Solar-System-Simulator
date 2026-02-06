@@ -18,4 +18,4 @@ MonoBehaviour:
   planetRotationAxis: {x: 0, y: 1, z: 0}
   sceneToLoad: VenusSurface
   steps: 100
-  radius: 39.44
+  radius: 42.5

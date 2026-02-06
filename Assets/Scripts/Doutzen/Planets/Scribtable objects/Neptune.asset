@@ -17,5 +17,5 @@ MonoBehaviour:
   duration: 165
   planetRotationAxis: {x: 0, y: -1, z: 0}
   sceneToLoad: NeptuneSurface
-  steps: 300
-  radius: 161.41
+  steps: 100
+  radius: 165
