@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 714637672544493469, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -105
+      objectReference: {fileID: 0}
+    - target: {fileID: 714637672544493469, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 288
+      objectReference: {fileID: 0}
     - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_text
       value: Jupiter is de grootste planeet!
