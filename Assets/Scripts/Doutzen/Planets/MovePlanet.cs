@@ -29,13 +29,19 @@ public class MovePlanet : MonoBehaviour
     {
         if (near)
         {
-            _planetSpline.Container = _splineNear;
+            if(_planetSpline != null)
+            {
+                _planetSpline.Container = _splineNear;
+            }
             transform.localScale = new Vector3(_planetInfo.nearViewScale, _planetInfo.nearViewScale, _planetInfo.nearViewScale);
             DrawLine(_planetInfo.steps, _planetInfo.radiusClose);
         }
         else
         {
-            _planetSpline.Container = _splineFar;
+            if(_planetSpline != null)
+            {
+                _planetSpline.Container = _splineFar;
+            }
             transform.localScale = new Vector3(_planetInfo.farViewScale, _planetInfo.farViewScale, _planetInfo.farViewScale);
             DrawLine(_planetInfo.steps, _planetInfo.radiusFar);
         }

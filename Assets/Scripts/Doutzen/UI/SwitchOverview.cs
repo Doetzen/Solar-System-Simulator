@@ -22,11 +22,14 @@ public class SwitchOverview : MonoBehaviour
         {
             _standartViewOn = false;
             _camHolder.transform.position = _farCamPos.position;
+            _camHolder.transform.rotation = _farCamPos.rotation;
         }
         else
         {
             _standartViewOn = true;
             _camHolder.transform.position = _nearCamPos.position;
+            _camHolder.transform.rotation = _nearCamPos.rotation;
+
         }
 
         foreach (GameObject planet in _planets)
