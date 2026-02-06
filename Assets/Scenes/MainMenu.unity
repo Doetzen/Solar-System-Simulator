@@ -5114,7 +5114,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 512.2, y: -0.0000038147}
+  m_AnchoredPosition: {x: 504.99, y: -200}
   m_SizeDelta: {x: 513.139, y: 96.214}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &83621089
@@ -5998,13 +5998,13 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 733359934}
-        m_TargetAssemblyTypeName: ToGame, Assembly-CSharp
-        m_MethodName: ToMainGame
-        m_Mode: 1
+        m_TargetAssemblyTypeName: SceneLoading, Assembly-CSharp
+        m_MethodName: SceneSwitch
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0

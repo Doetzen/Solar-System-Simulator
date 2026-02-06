@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 5826781845351572540}
   - component: {fileID: 828005626446515953}
   - component: {fileID: 4876287987292771227}
+  - component: {fileID: 3276962226716093979}
   m_Layer: 0
   m_Name: BackButton
   m_TagString: Untagged
@@ -33,10 +34,10 @@ RectTransform:
   m_Children: []
   m_Father: {fileID: 4289107046703686913}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 254.08252, y: 229}
-  m_SizeDelta: {x: 250, y: 250}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -809.5, y: 391.4}
+  m_SizeDelta: {x: 138.7327, y: 142.6667}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5826781845351572540
 CanvasRenderer:
@@ -115,7 +116,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 828005626446515953}
   m_OnClick:
     m_PersistentCalls:
@@ -132,6 +133,18 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &3276962226716093979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 820392898163219034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa97e7644965c684e83fa08300134ac2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1158319173396191921
 GameObject:
   m_ObjectHideFlags: 0
@@ -261,7 +274,7 @@ GameObject:
   - component: {fileID: 275621628989709926}
   - component: {fileID: 6631616040034406602}
   m_Layer: 0
-  m_Name: panel
+  m_Name: Panel
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

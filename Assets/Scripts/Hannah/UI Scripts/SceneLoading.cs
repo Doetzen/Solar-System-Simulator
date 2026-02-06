@@ -3,14 +3,10 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoading : MonoBehaviour
 {
-    public void ToMainGame()
+    public void SceneSwitch(int sceneLoad)
     {
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(sceneLoad);
     }
 
-    public void ToMenu()
-    {
-        SceneManager.LoadScene(0);
-    }
 }
     
