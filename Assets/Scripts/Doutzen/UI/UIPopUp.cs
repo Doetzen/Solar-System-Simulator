@@ -3,6 +3,7 @@ using UnityEngine;
 
 public class UIPopUp : MonoBehaviour
 {
+
     [SerializeField] private CanvasGroup _objectToEnable;
 
     [SerializeField] private AudioSource _popUpAudio;
@@ -14,16 +15,25 @@ public class UIPopUp : MonoBehaviour
     //variable for hover shader
 
 
+    private void OnMouseEnter()
+    {
+        OnHover();
+    }
+    private void OnMouseExit()
+    {
+        StopHover();
+    }
+
     //do things when mouse is hovering on this GameObject
     //like scale, show hover shader and show UI
-    private void OnMouseEnter()
+    public void OnHover()
     {
         // in enter play popup audio
         // start hoveraudio
         StopAllCoroutines();
         StartCoroutine(FadeCVGroupOn(1, 2));
 
-        if( _objectToScale != null)
+        if (_objectToScale != null)
         {
             _objectToScale.localScale += _selectedScale;
         }
@@ -31,18 +41,17 @@ public class UIPopUp : MonoBehaviour
         //set hover shader value to on
     }
 
-
     //stop the hovershader, ui and back to normal scale
-    private void OnMouseExit()
+    public void StopHover()
     {
-        //stop hoveraudio
         StopAllCoroutines();
         StartCoroutine(FadeCVGroupOff(0, 2));
 
-        if ( _objectToScale != null )
+        if (_objectToScale != null)
         {
             _objectToScale.localScale -= _selectedScale;
         }
+        //stop hoveraudio
 
         // set hover shader value to off
     }
