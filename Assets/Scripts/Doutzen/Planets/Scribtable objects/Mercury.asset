@@ -18,4 +18,5 @@ MonoBehaviour:
   planetRotationAxis: {x: 0, y: -1, z: 0}
   sceneToLoad: MercurySurface
   steps: 100
-  radius: 30
+  radiusClose: 30
+  radiusFar: 0

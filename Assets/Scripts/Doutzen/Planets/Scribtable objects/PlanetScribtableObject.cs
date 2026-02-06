@@ -12,5 +12,6 @@ public class PlanetScribtableObject : ScriptableObject
     public string sceneToLoad;
 
     public int steps;
-    public float radius;
+    public float radiusClose;
+    public float radiusFar;
 }
