@@ -13,11 +13,10 @@ public class MovePlanet : MonoBehaviour
     {
         _planetSpline = GetComponent<SplineAnimate>();
         _planetSpline.Duration = _planetInfo.duration;
-
+        DrawLine(_planetInfo.steps, _planetInfo.radiusClose);
     }
     private void Update()
     {
-        DrawLine(_planetInfo.steps, _planetInfo.radiusClose);
         //Rotates the planet based on given rotation
         transform.Rotate(_planetInfo.planetRotationAxis, _planetInfo.rotationSpeed * Time.deltaTime);
     }
@@ -27,6 +26,10 @@ public class MovePlanet : MonoBehaviour
     //radius == size of the orbit ring
     public void DrawLine(int steps, float radius)
     {
+        //reset positionCount for new line in far away and close view
+        _orbitRenderer.positionCount = 0;
+
+
         _orbitRenderer.positionCount = steps;
 
         for (int i = 0; i < steps; i++)

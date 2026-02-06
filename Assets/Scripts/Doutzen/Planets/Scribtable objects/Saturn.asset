@@ -19,4 +19,4 @@ MonoBehaviour:
   sceneToLoad: SaturnSurface
   steps: 100
   radiusClose: 120
-  radiusFar: 0
+  radiusFar: 1488

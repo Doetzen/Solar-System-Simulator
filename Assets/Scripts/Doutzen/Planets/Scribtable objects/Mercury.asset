@@ -19,4 +19,4 @@ MonoBehaviour:
   sceneToLoad: MercurySurface
   steps: 100
   radiusClose: 30
-  radiusFar: 0
+  radiusFar: 63.82

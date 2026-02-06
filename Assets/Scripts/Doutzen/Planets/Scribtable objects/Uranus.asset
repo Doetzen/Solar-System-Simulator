@@ -19,4 +19,4 @@ MonoBehaviour:
   sceneToLoad: UranusSurface
   steps: 100
   radiusClose: 145
-  radiusFar: 0
+  radiusFar: 2954.5

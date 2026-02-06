@@ -19,4 +19,4 @@ MonoBehaviour:
   sceneToLoad: MarsSurface
   steps: 100
   radiusClose: 75
-  radiusFar: 0
+  radiusFar: 248.8

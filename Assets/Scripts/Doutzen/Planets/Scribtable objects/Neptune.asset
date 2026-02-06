@@ -19,4 +19,4 @@ MonoBehaviour:
   sceneToLoad: NeptuneSurface
   steps: 100
   radiusClose: 165
-  radiusFar: 0
+  radiusFar: 4560.5

@@ -19,4 +19,4 @@ MonoBehaviour:
   sceneToLoad: EarthSurface
   steps: 100
   radiusClose: 55
-  radiusFar: 0
+  radiusFar: 151.5
