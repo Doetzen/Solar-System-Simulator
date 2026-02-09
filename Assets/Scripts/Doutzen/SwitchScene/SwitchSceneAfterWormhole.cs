@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class SwitchSceneAfterWormhole : MonoBehaviour
 {
+    private float _timeBetweenScenes = 1f;
     private string _sceneToSwitchTo;
 
     private void Start()
@@ -17,15 +18,7 @@ public class SwitchSceneAfterWormhole : MonoBehaviour
 
     private IEnumerator TimeToWait()
     {
-        yield return new WaitForSeconds(1);
-
-        AsyncOperation sceneOperation = SceneManager.LoadSceneAsync(_sceneToSwitchTo);
-
-        while(!sceneOperation.isDone)
-        {
-            //for if we want a loading slider
-            //float progress = Mathf.Clamp01(sceneOperation.progress / 0.9f);
-            yield return null;
-        }
+        yield return new WaitForSeconds(_timeBetweenScenes);
+        SceneManager.LoadScene( _sceneToSwitchTo );
     }
 }

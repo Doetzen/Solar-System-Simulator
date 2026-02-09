@@ -40,8 +40,8 @@ public class UIPopUp : MonoBehaviour
         {
             _hoverShaderMesh.SetActive(true);
         }
-        // in enter play popup audio
-        // start hoveraudio
+        _popUpAudio.Play();
+        _hoverAudio.Play();
     }
 
     //stop the hovershader, ui and back to normal scale
@@ -59,7 +59,7 @@ public class UIPopUp : MonoBehaviour
         {
             _hoverShaderMesh.SetActive(false);
         }
-        //stop hoveraudio
+        _hoverAudio.Stop();
     }
 
     //fade UI in when hovering

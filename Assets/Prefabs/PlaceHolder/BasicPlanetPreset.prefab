@@ -182,6 +182,7 @@ MonoBehaviour:
   _hoverAudio: {fileID: 0}
   _objectToScale: {fileID: 3669774180767296040}
   _selectedScale: {x: 0, y: 0, z: 0}
+  _hoverShaderMesh: {fileID: 0}
 --- !u!1 &2859511090433953805
 GameObject:
   m_ObjectHideFlags: 0
@@ -703,7 +704,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!1 &7055759664700730082
 GameObject:
   m_ObjectHideFlags: 0
@@ -797,6 +798,7 @@ MonoBehaviour:
   _hoverAudio: {fileID: 0}
   _objectToScale: {fileID: 4282539021983513734}
   _selectedScale: {x: 0, y: 0, z: 0}
+  _hoverShaderMesh: {fileID: 0}
 --- !u!1 &7668336235106763922
 GameObject:
   m_ObjectHideFlags: 0

@@ -94,6 +94,7 @@ MonoBehaviour:
   _hoverAudio: {fileID: 0}
   _objectToScale: {fileID: 194179416109634557}
   _selectedScale: {x: 0.1, y: 0.1, z: 0.1}
+  _hoverShaderMesh: {fileID: 0}
 --- !u!61 &5347952907581536147
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -225,7 +226,7 @@ MonoBehaviour:
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 1
+  m_PresetInfoIsWorld: 0
 --- !u!114 &2709473044419646119
 MonoBehaviour:
   m_ObjectHideFlags: 0
