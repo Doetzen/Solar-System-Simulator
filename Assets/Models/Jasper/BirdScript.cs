@@ -10,13 +10,33 @@ public class MoveAlongZ : MonoBehaviour
     [Tooltip("Distance to travel before resetting to start position")]
     public float resetDistance = 10f;
 
+    [Header("Spawn Settings")]
+    [Tooltip("Radius for random spawn on X and Y axes")]
+    public float spawnRadius = 5f;
+
     private Vector3 startPosition;
     private float distanceTraveled = 0f;
 
     void Start()
     {
-        // Store the starting position
+        // Store the initial position as the center point
         startPosition = transform.position;
+
+        // Spawn at a random position within the radius
+        RandomizePosition();
+    }
+
+    void RandomizePosition()
+    {
+        // Generate random offset within a circle on X and Y
+        Vector2 randomCircle = Random.insideUnitCircle * spawnRadius;
+
+        // Apply the random offset to X and Y, keep original Z
+        transform.position = new Vector3(
+            startPosition.x + randomCircle.x,
+            startPosition.y + randomCircle.y,
+            startPosition.z
+        );
     }
 
     void Update()
@@ -33,8 +53,8 @@ public class MoveAlongZ : MonoBehaviour
         // Check if we've reached the reset distance
         if (distanceTraveled >= resetDistance)
         {
-            // Reset to start position
-            transform.position = startPosition;
+            // Reset to a new random position
+            RandomizePosition();
             distanceTraveled = 0f;
         }
     }
