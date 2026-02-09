@@ -19,6 +19,6 @@ MonoBehaviour:
   steps: 100
   radiusClose: 92.5
   radiusFar: 756
-  nearViewScale: 13
+  nearViewScale: 10
   farViewScale: 11.2
   sceneToLoad: JupiterSurface
