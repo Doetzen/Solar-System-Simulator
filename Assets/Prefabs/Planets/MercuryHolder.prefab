@@ -245,6 +245,10 @@ PrefabInstance:
       propertyPath: m_ConstrainProportionsScale
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1789521795487806001, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: _planetInfo
+      value: 
+      objectReference: {fileID: 11400000, guid: 724939a783293f440ae8c20b3f6951c4, type: 2}
     - target: {fileID: 2496474672455585679, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: _objectToScale
       value: 

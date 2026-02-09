@@ -1,5 +1,4 @@
 using UnityEngine;
-using UnityEngine.Splines;
 
 public class SwitchOverview : MonoBehaviour
 {
