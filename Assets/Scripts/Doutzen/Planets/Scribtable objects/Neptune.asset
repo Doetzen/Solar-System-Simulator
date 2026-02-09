@@ -16,9 +16,9 @@ MonoBehaviour:
   rotationSpeed: 3.2
   planetRotationAxis: {x: 0, y: -1, z: 0}
   duration: 165
-  steps: 100
+  steps: 500
   radiusClose: 200
-  radiusFar: 4560.5
+  radiusFar: 4475
   nearViewScale: 5
   farViewScale: 3.8
   sceneToLoad: NeptuneSurface
