@@ -16,6 +16,22 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 38.65
       objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_text
       value: Er is een theorie dat diep in de atmosfeer van Saturnus het diamanten
@@ -25,6 +41,22 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 25.65
       objectReference: {fileID: 0}
+    - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_text
       value: Saturnus heeft 274 manen.
@@ -32,6 +64,22 @@ PrefabInstance:
     - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_fontSize
       value: 41.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3404590183923240761, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_Name

@@ -17,6 +17,22 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 23.2
       objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_text
       value: De eerste maanlanding gebeurde op 21 juli 1969!
@@ -24,6 +40,22 @@ PrefabInstance:
     - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_fontSize
       value: 28.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_text
@@ -33,6 +65,22 @@ PrefabInstance:
     - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_fontSize
       value: 29
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3404590183923240761, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_Name
