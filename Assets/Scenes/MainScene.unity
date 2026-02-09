@@ -2714,6 +2714,18 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 2311637585886432245, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 340.00003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311637585886432245, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 340.00003
+      objectReference: {fileID: 0}
+    - target: {fileID: 2311637585886432245, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 340.00003
+      objectReference: {fileID: 0}
     - target: {fileID: 2547734925108774983, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
       propertyPath: _objectToEnable
       value: 
@@ -2729,6 +2741,18 @@ PrefabInstance:
     - target: {fileID: 3172109960519653567, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
       propertyPath: m_Name
       value: PlanetPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254371900538002960, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 399.99997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254371900538002960, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 399.99997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254371900538002960, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_LocalScale.z
+      value: 399.99997
       objectReference: {fileID: 0}
     - target: {fileID: 3291310421691911422, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
       propertyPath: m_text
