@@ -416,8 +416,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panSpeed: 25
-  panLimitX: {x: -75, y: 75}
-  panLimitZ: {x: -75, y: 75}
+  panLimitX: {x: -150, y: 150}
+  panLimitZ: {x: -150, y: 150}
 --- !u!114 &594707709
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1215,6 +1215,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 856148352}
     m_Modifications:
+    - target: {fileID: 419921356876918282, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: Een dag duurt 10 uur!
+      objectReference: {fileID: 0}
+    - target: {fileID: 419921356876918282, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.8
+      objectReference: {fileID: 0}
     - target: {fileID: 461511085493931577, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -1255,9 +1263,247 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 479609121590771509, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: Een dag duurt 9,9 uur!
+      objectReference: {fileID: 0}
+    - target: {fileID: 479609121590771509, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 793926965343768432, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: De snelheid van Neptunus is 19.500 kilometer per uur.
+      objectReference: {fileID: 0}
+    - target: {fileID: 793926965343768432, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 855372845279701425, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: Een jaar duurt 88 dagen lang.
+      objectReference: {fileID: 0}
+    - target: {fileID: 855372845279701425, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 925953034368882100, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: Een jaar duurt 225 dagen lang!
+      objectReference: {fileID: 0}
+    - target: {fileID: 925953034368882100, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 1266745390310735403, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: Een jaar op Jupiter duurt meer dan 11 jaar!
+      objectReference: {fileID: 0}
+    - target: {fileID: 1266745390310735403, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011471500202300586, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: 'Een dag duurt 5832 uur, dat zijn 243 dagen hier op aarde. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2011471500202300586, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 2022003855139962891, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: De Aarde draait zo'n 1670 kilometer per uur om zijn eigen as!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2022003855139962891, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033115277583617646, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: Een jaar op Neptunus is 165 jaar hier op Aarde!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2033115277583617646, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.55
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084444105664407727, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: 'Een dag duurt 1408 uur, dat is meer dan 58 dagen voor ons! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 2084444105664407727, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 2663039322913103726, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: Een jaar voor de Maan is 27 dagen lang!
+      objectReference: {fileID: 0}
+    - target: {fileID: 2663039322913103726, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.6
+      objectReference: {fileID: 0}
     - target: {fileID: 3172109960519653567, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
       propertyPath: m_Name
       value: PlanetPrefab
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291310421691911422, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: Een dag duurt zo'n 24.6 uur dus bijna hetzelfde als op Aarde!
+      objectReference: {fileID: 0}
+    - target: {fileID: 3291310421691911422, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 3769099027661039796, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: "\xC9\xE9n dag duurt  27 dagen lang!"
+      objectReference: {fileID: 0}
+    - target: {fileID: 3769099027661039796, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134483953036775970, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: De snelheid is 24.500 kilometer per uur!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4134483953036775970, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223987975435652576, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: Een jaar duurt 697 dagen.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4223987975435652576, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829395417144772036, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: Door de snelheid van de Aarde duurt een ronde om de zon 365,25 dagen
+        wat de basis is voor ons kalenderjaar.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4829395417144772036, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.35
+      objectReference: {fileID: 0}
+    - target: {fileID: 4850854474865868496, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4893023138340564320, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: De snelheid van Mercurius is 170.500 kilometer per uur.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4893023138340564320, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 4963181110036500837, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: De snelheid van Venus is 828.000 kilometer per uur.
+      objectReference: {fileID: 0}
+    - target: {fileID: 4963181110036500837, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5614506264451656411, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: Een jaar op Saturnus is 29,5 jaar op Aarde
+      objectReference: {fileID: 0}
+    - target: {fileID: 5614506264451656411, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6056906221664701119, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: Een dag duurt iets meer dan 16 uur.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6056906221664701119, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6068317131105207514, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: Gemiddeld is de snelheid van de Aarde 107.000 kilometer per uur!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6068317131105207514, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6461827311094381306, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: De snelheid van Jupiter is 47.000 kilometer per uur.
+      objectReference: {fileID: 0}
+    - target: {fileID: 6461827311094381306, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 6546316858347842501, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: De snelheid is 34.700 kilometer per uur!
+      objectReference: {fileID: 0}
+    - target: {fileID: 6546316858347842501, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 7379798348570138605, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: Een dag duurt 17 uur!
+      objectReference: {fileID: 0}
+    - target: {fileID: 7379798348570138605, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729421439786773883, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: De snelheid van de zon is 828.000 kilometer per uur.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7729421439786773883, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839750638354750399, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: De snelheid van de Maan is 3.683 kilometer per uur.
+      objectReference: {fileID: 0}
+    - target: {fileID: 7839750638354750399, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8167775673929717491, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: Een jaar op Uranus is 84 jaar op Aarde!
+      objectReference: {fileID: 0}
+    - target: {fileID: 8167775673929717491, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261845972514638129, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: 'De snelheid van Mars is 86.700 kilometer per uur. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8261845972514638129, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935115718562093729, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: 'Een dag op de Maan is 708 uur, dat is meer dan 29 dagen! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8935115718562093729, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.45
+      objectReference: {fileID: 0}
+    - target: {fileID: 8968883559652043877, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_text
+      value: 'Het duurt wel 225 miljoen jaar voordat de zon een rondje maakt om de
+        melkweg! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8968883559652043877, guid: 907fa66782925c948ae05b7a88369a25, type: 3}
+      propertyPath: m_fontSize
+      value: 0.4
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
