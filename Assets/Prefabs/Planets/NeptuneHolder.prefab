@@ -14,19 +14,19 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 36f49b35a00df954e9183c5473e4d0cd, type: 2}
     - target: {fileID: 710955265703037373, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_Radius
-      value: 1.1
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: 763074608181718490, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_LocalScale.x
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 763074608181718490, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_LocalScale.y
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 763074608181718490, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_LocalScale.z
-      value: 5
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 763074608181718490, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -108,6 +108,10 @@ PrefabInstance:
       propertyPath: _planetInfo
       value: 
       objectReference: {fileID: 11400000, guid: 36f49b35a00df954e9183c5473e4d0cd, type: 2}
+    - target: {fileID: 4752397843880236402, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: _objectToScale
+      value: 
+      objectReference: {fileID: 2436464798279719935}
     - target: {fileID: 8645355639923180983, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_Name
       value: NeptuneHolder
@@ -144,15 +148,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 162d1f56bae648d4c8321c5552180e0e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 162d1f56bae648d4c8321c5552180e0e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 162d1f56bae648d4c8321c5552180e0e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 162d1f56bae648d4c8321c5552180e0e, type: 3}
       propertyPath: m_LocalPosition.x
@@ -226,15 +230,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 162d1f56bae648d4c8321c5552180e0e, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 162d1f56bae648d4c8321c5552180e0e, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 162d1f56bae648d4c8321c5552180e0e, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.2
+      value: 5.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 162d1f56bae648d4c8321c5552180e0e, type: 3}
       propertyPath: m_LocalPosition.x

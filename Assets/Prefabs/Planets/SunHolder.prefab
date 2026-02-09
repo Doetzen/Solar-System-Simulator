@@ -14,19 +14,19 @@ PrefabInstance:
       objectReference: {fileID: 11400000, guid: 1c14e8128bd7bfa43935072ddf6da923, type: 2}
     - target: {fileID: 710955265703037373, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_Radius
-      value: 1.1
+      value: 20.2
       objectReference: {fileID: 0}
     - target: {fileID: 763074608181718490, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_LocalScale.x
-      value: 20
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 763074608181718490, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_LocalScale.y
-      value: 20
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 763074608181718490, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_LocalScale.z
-      value: 20
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 763074608181718490, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_LocalPosition.x
@@ -108,6 +108,10 @@ PrefabInstance:
       propertyPath: _planetInfo
       value: 
       objectReference: {fileID: 11400000, guid: 1c14e8128bd7bfa43935072ddf6da923, type: 2}
+    - target: {fileID: 4752397843880236402, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: _objectToScale
+      value: 
+      objectReference: {fileID: 8807117359042850120}
     - target: {fileID: 8645355639923180983, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_Name
       value: SunHolder
@@ -145,15 +149,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c7ac4ed37d44aae4ab5b7c078372e5e2, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1.2
+      value: 20.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c7ac4ed37d44aae4ab5b7c078372e5e2, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1.2
+      value: 20.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c7ac4ed37d44aae4ab5b7c078372e5e2, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1.2
+      value: 20.2
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c7ac4ed37d44aae4ab5b7c078372e5e2, type: 3}
       propertyPath: m_LocalPosition.x
@@ -236,15 +240,15 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: c7ac4ed37d44aae4ab5b7c078372e5e2, type: 3}
       propertyPath: m_LocalScale.x
-      value: 1
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c7ac4ed37d44aae4ab5b7c078372e5e2, type: 3}
       propertyPath: m_LocalScale.y
-      value: 1
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c7ac4ed37d44aae4ab5b7c078372e5e2, type: 3}
       propertyPath: m_LocalScale.z
-      value: 1
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: c7ac4ed37d44aae4ab5b7c078372e5e2, type: 3}
       propertyPath: m_LocalPosition.x

@@ -4,6 +4,7 @@ using UnityEngine.Splines;
 public class MovePlanet : MonoBehaviour
 {
     [SerializeField] private PlanetScribtableObject _planetInfo;
+    [SerializeField] private Transform _objectToScale;
     [SerializeField] private float _multiplyAmmount;
 
     [SerializeField] private LineRenderer _orbitRenderer;
@@ -33,7 +34,7 @@ public class MovePlanet : MonoBehaviour
             {
                 _planetSpline.Container = _splineNear;
             }
-            transform.localScale = new Vector3(_planetInfo.nearViewScale, _planetInfo.nearViewScale, _planetInfo.nearViewScale);
+            _objectToScale.localScale = new Vector3(_planetInfo.nearViewScale, _planetInfo.nearViewScale, _planetInfo.nearViewScale);
             DrawLine(_planetInfo.steps, _planetInfo.radiusClose);
         }
         else
@@ -42,7 +43,7 @@ public class MovePlanet : MonoBehaviour
             {
                 _planetSpline.Container = _splineFar;
             }
-            transform.localScale = new Vector3(_planetInfo.farViewScale, _planetInfo.farViewScale, _planetInfo.farViewScale);
+            _objectToScale.localScale = new Vector3(_planetInfo.farViewScale, _planetInfo.farViewScale, _planetInfo.farViewScale);
             DrawLine(_planetInfo.steps, _planetInfo.radiusFar);
         }
     }

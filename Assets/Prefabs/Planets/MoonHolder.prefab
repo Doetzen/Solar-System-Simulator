@@ -108,6 +108,10 @@ PrefabInstance:
       propertyPath: _planetInfo
       value: 
       objectReference: {fileID: 11400000, guid: 070d51631a5ac844a8bb2202584421d8, type: 2}
+    - target: {fileID: 4752397843880236402, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
+      propertyPath: _objectToScale
+      value: 
+      objectReference: {fileID: 6575544161876627412}
     - target: {fileID: 8645355639923180983, guid: 8d0f22cda3aa004469463ac3c6adc0ad, type: 3}
       propertyPath: m_Name
       value: MoonHolder
