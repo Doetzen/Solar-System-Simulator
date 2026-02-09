@@ -13,6 +13,10 @@ public class CamRotating : MonoBehaviour
             float mouseDeltaX = Input.GetAxis("Mouse X");
 
             transform.Rotate(Vector3.up, mouseDeltaX * rotationSpeed * Time.deltaTime);
+
+            float mouseDeltaY = Input.GetAxis("Mouse Y");
+
+            transform.Rotate(Vector3.up, mouseDeltaX * rotationSpeed * Time.deltaTime);
         }
     }
 }

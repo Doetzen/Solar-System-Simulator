@@ -55,23 +55,33 @@ public class Settings : MonoBehaviour
             PlayerPrefs.SetFloat("SFXVolume", sfxSlider.value);
         }
 
+
+
         allResolutions = Screen.resolutions;
 
         List<string> resolutionStringList = new List<string>();
         string newRes;
-        foreach(Resolution res in allResolutions)
+       
+        foreach (Resolution res in allResolutions)
         {
             newRes = res.width.ToString() + "x" + res.height.ToString();
             
-            if(!resolutionStringList.Contains(newRes))
+
+            if (!resolutionStringList.Contains(newRes))
             {
                 resolutionStringList.Add(newRes);
                 selectedResolutionList.Add(res);
+                
             }
 
         }
 
+        selectedResolution = PlayerPrefs.GetInt("selectedResolution", 0);
+
+
         resolutionDropdown.AddOptions(resolutionStringList);
+
+        resolutionDropdown.value = selectedResolution;
 
         isFullScreen = true;
 
@@ -99,9 +109,13 @@ public class Settings : MonoBehaviour
 
     public void ChangeRes()
     {
+        
         selectedResolution = resolutionDropdown.value;
 
+        PlayerPrefs.SetInt("selectedResolution", selectedResolution);
+
         Screen.SetResolution(selectedResolutionList[selectedResolution].width, selectedResolutionList[selectedResolution].height, isFullScreen);
+
     }
 
     public void SetFullScreen(bool isFullScreen)
