@@ -17,6 +17,7 @@ public class SwitchSceneAfterWormhole : MonoBehaviour
 
     private IEnumerator TimeToWait()
     {
+        yield return new WaitForSeconds(1);
 
         AsyncOperation sceneOperation = SceneManager.LoadSceneAsync(_sceneToSwitchTo);
 
