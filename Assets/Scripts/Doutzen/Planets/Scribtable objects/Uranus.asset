@@ -17,7 +17,7 @@ MonoBehaviour:
   planetRotationAxis: {x: 1, y: 0, z: 0}
   duration: 150
   steps: 100
-  radiusClose: 145
+  radiusClose: 170
   radiusFar: 2954.5
   nearViewScale: 6
   farViewScale: 4
