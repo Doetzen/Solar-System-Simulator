@@ -14,7 +14,7 @@ public class SwitchSceneToWormhole : MonoBehaviour
         SceneManager.LoadScene("Wormhole");
     }
 
-
+    //For switching back to the overview scene
     public void SwitchSceneWithButton()
     {
         PlayerPrefs.SetString("sceneToLoad", "MainScene");

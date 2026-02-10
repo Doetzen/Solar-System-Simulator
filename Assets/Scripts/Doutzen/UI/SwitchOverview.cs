@@ -1,4 +1,3 @@
-using Unity.VisualScripting;
 using UnityEngine;
 
 public class SwitchOverview : MonoBehaviour
@@ -32,38 +31,44 @@ public class SwitchOverview : MonoBehaviour
             Debug.Log("Move FAR?");
         }
     }
-    public void SwitchView()
+
+    //The UI button to handle the switch
+    //we only want to switch the view instantly when going far away. 
+    public void SwitchViewButton()
     {
         _isSwitching = true;
 
         if (_standartViewOn)
         {
             _standartViewOn = false;
-
-           // _camHolder.transform.rotation = _farCamPos.rotation;
+            SwitchView();
         }
         else
         {
             _standartViewOn = true;
-
-            //_camHolder.transform.rotation = _nearCamPos.rotation;
-
+            return;
         }
-
+    }
+    //tells the planets to switch
+    private void SwitchView()
+    {
         foreach (GameObject planet in _planets)
         {
             planet.GetComponent<MovePlanet>().Switch(_standartViewOn);
         }
     }
-
+    //Move the camera to the desired position. After the camera gets there, stop the function.
     private void MoveCam(Transform newPos, float speed)
     {
-        //Vector3 targetPos = new Vector3(newPos.position.x, newPos.position.y, newPos.position.z);
-        //_camHolder.transform.position += (targetPos - transform.position).normalized * speed * Time.deltaTime;
         _camHolder.transform.position = Vector3.MoveTowards(_camHolder.transform.position, newPos.position, speed);
         if(_camHolder.transform.position == newPos.position)
         {
             _isSwitching = false;
+
+            if (_standartViewOn)
+            {
+                SwitchView();
+            }
         }
     } 
 }

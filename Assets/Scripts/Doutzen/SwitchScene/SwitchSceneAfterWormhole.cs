@@ -7,6 +7,7 @@ public class SwitchSceneAfterWormhole : MonoBehaviour
     private float _timeBetweenScenes = 1f;
     private string _sceneToSwitchTo;
 
+    //get playerpref for scene loading to switch to right scene
     private void Start()
     {
         _sceneToSwitchTo = PlayerPrefs.GetString("sceneToLoad");
@@ -15,7 +16,7 @@ public class SwitchSceneAfterWormhole : MonoBehaviour
         StartCoroutine(TimeToWait());
 
     }
-
+    //wait a second to see wormhole effect, after switch to right scene
     private IEnumerator TimeToWait()
     {
         yield return new WaitForSeconds(_timeBetweenScenes);
