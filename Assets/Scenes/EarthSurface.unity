@@ -328,6 +328,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 996acfa493d810d4e9207c95342fc61c, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 996acfa493d810d4e9207c95342fc61c, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 202770e8a7ea3d6428514c563658a41e, type: 2}
@@ -794,14 +798,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7813182326809088733, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
-      propertyPath: m_Animation
-      value: 
-      objectReference: {fileID: -4506558747437489242, guid: 06301addcdf56d84da696a2b6fd06d13, type: 3}
-    - target: {fileID: 7813182326809088733, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
-      propertyPath: 'm_Animations.Array.data[0]'
-      value: 
-      objectReference: {fileID: -4506558747437489242, guid: 06301addcdf56d84da696a2b6fd06d13, type: 3}
     - target: {fileID: 3329389620890344388, guid: 5abb3d1326d69314898008472d69383b, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -850,6 +846,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bird 1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7813182326809088733, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: -4506558747437489242, guid: 06301addcdf56d84da696a2b6fd06d13, type: 3}
+    - target: {fileID: 7813182326809088733, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
+      propertyPath: 'm_Animations.Array.data[0]'
+      value: 
+      objectReference: {fileID: -4506558747437489242, guid: 06301addcdf56d84da696a2b6fd06d13, type: 3}
     m_RemovedComponents:
     - {fileID: 7081944630769339293, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
     - {fileID: 6079511812643870168, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
@@ -1012,6 +1016,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 40138de5b0564394aa5af103355255ca, type: 3}
+      propertyPath: m_CastShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 40138de5b0564394aa5af103355255ca, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
       objectReference: {fileID: 2100000, guid: 8e0c07587bab68d4cb62100a9b90d0fc, type: 2}
@@ -1032,14 +1040,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7813182326809088733, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
-      propertyPath: m_Animation
-      value: 
-      objectReference: {fileID: -4506558747437489242, guid: 06301addcdf56d84da696a2b6fd06d13, type: 3}
-    - target: {fileID: 7813182326809088733, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
-      propertyPath: 'm_Animations.Array.data[0]'
-      value: 
-      objectReference: {fileID: -4506558747437489242, guid: 06301addcdf56d84da696a2b6fd06d13, type: 3}
     - target: {fileID: 3329389620890344388, guid: 5abb3d1326d69314898008472d69383b, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1088,6 +1088,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bird 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 7813182326809088733, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: -4506558747437489242, guid: 06301addcdf56d84da696a2b6fd06d13, type: 3}
+    - target: {fileID: 7813182326809088733, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
+      propertyPath: 'm_Animations.Array.data[0]'
+      value: 
+      objectReference: {fileID: -4506558747437489242, guid: 06301addcdf56d84da696a2b6fd06d13, type: 3}
     m_RemovedComponents:
     - {fileID: 7081944630769339293, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
     - {fileID: 6079511812643870168, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
@@ -1206,14 +1214,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 7813182326809088733, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
-      propertyPath: m_Animation
-      value: 
-      objectReference: {fileID: -4506558747437489242, guid: 06301addcdf56d84da696a2b6fd06d13, type: 3}
-    - target: {fileID: 7813182326809088733, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
-      propertyPath: 'm_Animations.Array.data[0]'
-      value: 
-      objectReference: {fileID: -4506558747437489242, guid: 06301addcdf56d84da696a2b6fd06d13, type: 3}
     - target: {fileID: 3329389620890344388, guid: 5abb3d1326d69314898008472d69383b, type: 3}
       propertyPath: m_Enabled
       value: 1
@@ -1262,6 +1262,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bird 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7813182326809088733, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
+      propertyPath: m_Animation
+      value: 
+      objectReference: {fileID: -4506558747437489242, guid: 06301addcdf56d84da696a2b6fd06d13, type: 3}
+    - target: {fileID: 7813182326809088733, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
+      propertyPath: 'm_Animations.Array.data[0]'
+      value: 
+      objectReference: {fileID: -4506558747437489242, guid: 06301addcdf56d84da696a2b6fd06d13, type: 3}
     m_RemovedComponents:
     - {fileID: 7081944630769339293, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
     - {fileID: 6079511812643870168, guid: 9559454864c0b6241af75bbff33255fe, type: 3}
