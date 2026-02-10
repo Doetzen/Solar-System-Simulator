@@ -2,55 +2,80 @@ using UnityEngine;
 
 public class CameraControl : MonoBehaviour
 {
-    public float rotationSpeed = 100f;
+    public GameObject parentModel;
+
+    public float rotationSpeed = 25f;
     private Vector3 mouseWorldPosStart;
-    private float zoomScale = 25f;
-    private float zoomMin = .1f;
-    private float zoomMax = 150f;
+    private float zoomScale = 10f;
+    private float maxFOV = 80f;
+    private float minFOV = 20f;
+    private float defaultFOV = 60f;
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.LeftShift) && Input.GetKey(KeyCode.Mouse2))
+        if (Input.GetMouseButton(1))
         {
             CamOrbit();
         }
 
-        if (Input.GetMouseButtonDown(2) && !Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetKey(KeyCode.LeftShift) && Input.GetKeyDown(KeyCode.F))
         {
-            mouseWorldPosStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            FitToScreen();
         }
 
-        if (Input.GetMouseButton(2) && !Input.GetKey(KeyCode.LeftShift))
+        if (Input.GetMouseButtonDown(2) && !Input.GetKey(KeyCode.LeftShift))
+        {
+            mouseWorldPosStart = GetPerspectivePos();
+        }
+
+        if (Input.GetMouseButton(2))
         {
             Pan();
         }
 
         Zoom(Input.GetAxis("Mouse ScrollWheel"));
-
-
     }
 
     void CamOrbit()
     {
         if (Input.GetAxis("Mouse Y") != 0 || Input.GetAxis("Mouse X") != 0)
         {
-            float verticalInput = Input.GetAxis("Mouse Y") * rotationSpeed * Time.deltaTime;
-            float horizontalInput = Input.GetAxis("Mouse X") * rotationSpeed * Time.deltaTime;
+            float verticalInput = Input.GetAxis("Mouse Y") * rotationSpeed;
+            float horizontalInput = Input.GetAxis("Mouse X") * rotationSpeed;
 
             transform.Rotate(Vector3.right, -verticalInput);
-            transform.Rotate(Vector3.forward, -horizontalInput, Space.World);   
-
+            transform.Rotate(Vector3.up, horizontalInput, Space.World);
         }
+    }
 
+    private Bounds GetBound(GameObject parentGameObj)
+    {
+        Bounds bound = new Bounds(parentGameObj.transform.position, Vector3.zero);
+        var rList = parentGameObj.GetComponentsInChildren(typeof(Renderer));
+        foreach (Renderer r in rList)
+        {
+            bound.Encapsulate(r.bounds);
+        }
+        return bound;
+    }
+
+    void FitToScreen()
+    {
+        Camera.main.fieldOfView = defaultFOV;
+        Bounds bound = GetBound(parentModel);
+        Vector3 boundSize = bound.size;
+        float boundDiagonal = Mathf.Sqrt((boundSize.x * boundSize.x) + (boundSize.y * boundSize.y) + (boundSize.z * boundSize.z));
+        float camDistanceToBoundCentre = boundDiagonal / 2.0f / (Mathf.Tan(Camera.main.fieldOfView / 2.0f * Mathf.Deg2Rad));
+        float camDistanceToBoundWithOffset = camDistanceToBoundCentre - (Camera.main.transform.position - transform.position).magnitude;
+        transform.position = bound.center + (-transform.forward * camDistanceToBoundWithOffset);
     }
 
     void Pan()
     {
         if (Input.GetAxis("Mouse Y") != 0 || Input.GetAxis("Mouse X") != 0)
         {
-            Vector3 mouseWorldPosDiff = mouseWorldPosStart - Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            Vector3 mouseWorldPosDiff = mouseWorldPosStart - GetPerspectivePos();
             transform.position += mouseWorldPosDiff;
-
         }
     }
 
@@ -58,12 +83,19 @@ public class CameraControl : MonoBehaviour
     {
         if (zoomDiff != 0)
         {
-            mouseWorldPosStart = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-            Camera.main.orthographicSize = Mathf.Clamp(Camera.main.orthographicSize - zoomDiff * zoomScale, zoomMin, zoomMax);
-            Vector3 mouseWorldPosDiff = mouseWorldPosStart - Camera.main.ScreenToWorldPoint(Input.mousePosition);
+            mouseWorldPosStart = GetPerspectivePos();
+            Camera.main.fieldOfView = Mathf.Clamp(Camera.main.fieldOfView - zoomDiff * zoomScale, minFOV, maxFOV);
+            Vector3 mouseWorldPosDiff = mouseWorldPosStart - GetPerspectivePos();
             transform.position += mouseWorldPosDiff;
         }
     }
 
-
+    public Vector3 GetPerspectivePos()
+    {
+        Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+        Plane plane = new Plane(Vector3.up, Vector3.zero);
+        float dist;
+        plane.Raycast(ray, out dist);
+        return ray.GetPoint(dist);
+    }
 }
