@@ -6,9 +6,9 @@ public class CameraControl : MonoBehaviour
 
     public float rotationSpeed = 25f;
     private Vector3 mouseWorldPosStart;
-    private float zoomScale = 10f;
-    private float maxFOV = 80f;
-    private float minFOV = 20f;
+    [SerializeField] private float zoomScale = 10f;
+    [SerializeField] private float maxFOV = 80f;
+    [SerializeField] private float minFOV = 20f;
     private float defaultFOV = 60f;
 
     void Update()
