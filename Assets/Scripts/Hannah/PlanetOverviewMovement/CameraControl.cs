@@ -18,11 +18,6 @@ public class CameraControl : MonoBehaviour
             CamOrbit();
         }
 
-        if (Input.GetKey(KeyCode.LeftShift) && Input.GetKeyDown(KeyCode.F))
-        {
-            FitToScreen();
-        }
-
         if (Input.GetMouseButtonDown(2) && !Input.GetKey(KeyCode.LeftShift))
         {
             mouseWorldPosStart = GetPerspectivePos();
@@ -59,7 +54,7 @@ public class CameraControl : MonoBehaviour
         return bound;
     }
 
-    void FitToScreen()
+    public void FitToScreen()
     {
         Camera.main.fieldOfView = defaultFOV;
         Bounds bound = GetBound(parentModel);
@@ -98,4 +93,6 @@ public class CameraControl : MonoBehaviour
         plane.Raycast(ray, out dist);
         return ray.GetPoint(dist);
     }
+
+    
 }
