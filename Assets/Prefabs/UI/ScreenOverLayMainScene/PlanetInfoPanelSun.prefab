@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2068721149622805840, guid: fda8efda1538b904f8363c01c8edec0b, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -116
+      objectReference: {fileID: 0}
     - target: {fileID: 3798720182550796955, guid: fda8efda1538b904f8363c01c8edec0b, type: 3}
       propertyPath: m_text
       value: 'Het duurt wel 225 miljoen jaar voordat de zon een rondje maakt om de
@@ -15,7 +19,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3798720182550796955, guid: fda8efda1538b904f8363c01c8edec0b, type: 3}
       propertyPath: m_fontSize
-      value: 32.9
+      value: 42.95
       objectReference: {fileID: 0}
     - target: {fileID: 3880580483283899629, guid: fda8efda1538b904f8363c01c8edec0b, type: 3}
       propertyPath: m_text
@@ -43,7 +47,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4480146073739393016, guid: fda8efda1538b904f8363c01c8edec0b, type: 3}
       propertyPath: m_fontSize
-      value: 41.8
+      value: 42.3
       objectReference: {fileID: 0}
     - target: {fileID: 5546088009284485427, guid: fda8efda1538b904f8363c01c8edec0b, type: 3}
       propertyPath: m_text
@@ -51,7 +55,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5546088009284485427, guid: fda8efda1538b904f8363c01c8edec0b, type: 3}
       propertyPath: m_fontSize
-      value: 38.9
+      value: 55.35
       objectReference: {fileID: 0}
     - target: {fileID: 6518992844450300187, guid: fda8efda1538b904f8363c01c8edec0b, type: 3}
       propertyPath: m_Pivot.x

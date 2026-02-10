@@ -17,11 +17,11 @@ public class MovePlanet : MonoBehaviour
     {
         _planetSpline = GetComponent<SplineAnimate>();
         _planetSpline.Duration = _planetInfo.duration;
-        //DrawLine(_planetInfo.steps, _planetInfo.radiusClose);
         Switch(true);
     }
     private void Update()
     {
+       // DrawLine(_planetInfo.steps, _planetInfo.radiusClose);
         //Rotates the planet based on given rotation
         transform.Rotate(_planetInfo.planetRotationAxis, _planetInfo.rotationSpeed * Time.deltaTime);
     }
