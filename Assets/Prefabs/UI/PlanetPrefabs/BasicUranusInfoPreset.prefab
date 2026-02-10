@@ -8,6 +8,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 528677205669889436, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_Alpha
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 714637672544493469, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_AnchoredPosition.x
       value: 178.75616
@@ -18,11 +22,31 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_text
-      value: Uranus is de koudste planeetatmosfeer.
+      value: Uranus heeft de koudste planeet-atmosfeer.
       objectReference: {fileID: 0}
     - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_fontSize
-      value: 20
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_margin.y
+      value: 2.8355103
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_margin.z
+      value: -3.1530762
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 34
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
       objectReference: {fileID: 0}
     - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_text

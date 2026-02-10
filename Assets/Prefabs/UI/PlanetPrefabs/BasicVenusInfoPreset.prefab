@@ -8,6 +8,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 714637672544493469, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -605
+      objectReference: {fileID: 0}
+    - target: {fileID: 714637672544493469, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -107
+      objectReference: {fileID: 0}
     - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_text
       value: "De wolken bestaan grotendeels uit zwavelzuur. Die regen verdampt v\xF3\xF3r
@@ -17,13 +25,46 @@ PrefabInstance:
       propertyPath: m_fontSize
       value: 25.15
       objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1232391685723211490, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
+      objectReference: {fileID: 0}
     - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_text
-      value: Venus draait de andere kant van de zon op.
+      value: Venus draait met de klok mee om zijn as, dat is in tegenovergestelde
+        richting van de zon.
       objectReference: {fileID: 0}
     - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_fontSize
-      value: 38.65
+      value: 19.9
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_text
@@ -33,6 +74,22 @@ PrefabInstance:
     - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_fontSize
       value: 29.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.g
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4278190080
       objectReference: {fileID: 0}
     - target: {fileID: 3404590183923240761, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_Name

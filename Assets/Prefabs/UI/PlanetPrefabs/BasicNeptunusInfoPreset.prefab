@@ -18,11 +18,28 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_text
-      value: De grootste maan (Triton) draait de verkeerde kant om de planeet heen...
+      value: De grootste maan (Triton) draait in een tegenovergestelde as vergeleken
+        met Neptunus.
       objectReference: {fileID: 0}
     - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_fontSize
-      value: 29
+      value: 23.4
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3137671297136673896, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_fontColor32.rgba
+      value: 4294967295
       objectReference: {fileID: 0}
     - target: {fileID: 3254936004010288919, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_text
@@ -115,6 +132,30 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6266742435340489923, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447901063992349782, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0.537
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447901063992349782, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 310.83
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447901063992349782, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 246.8014
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447901063992349782, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -0.000016212463
+      objectReference: {fileID: 0}
+    - target: {fileID: 8447901063992349782, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -14.1542
+      objectReference: {fileID: 0}
+    - target: {fileID: 8860786430198686121, guid: 0cfba137c13c3a24f9b11bdab62b3a8e, type: 3}
+      propertyPath: m_Alpha
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
